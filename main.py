@@ -17,6 +17,7 @@ def getFirstSentence(text):
     return firstSentence
 
 def getAllWordsInFile(text):
+    #не включає символи пробілу
     return re.findall(r'\w+', text)
 
 def sortingWords(words):
